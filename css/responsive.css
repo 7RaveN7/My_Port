@@ -103,7 +103,6 @@ marquee{
 }
 .menu{
   float:left;
-  border:2px white solid;
   margin-top:85px;
 }
 #check:checked ~ .sidebar{
