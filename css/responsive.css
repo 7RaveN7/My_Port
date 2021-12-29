@@ -64,13 +64,8 @@ td{
   padding:25px 25px;
 }
 .container-footer{
-  width:76%;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  width:75.8%;
 }
-body{
-overflow-y:hidden;
-	}
 }
 
 @media(max-width:670px){
