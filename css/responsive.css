@@ -64,7 +64,8 @@ td{
   padding:25px 25px;
 }
 .container-footer{
-  width:75.7%;
+  width:76%;
+  overflow:hidden;
 }
 }
 
