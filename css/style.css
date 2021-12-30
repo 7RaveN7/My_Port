@@ -135,7 +135,7 @@ p{
 }
 
 .sidebar-right{
-    margin-left: 78%; /* "#menu" width */
+    margin-left: 80%; /* "#menu" width */
     width: 300px;
     position: fixed;
     top: 0;
