@@ -28,7 +28,7 @@
 	color: white;
 }
 body{
-background-image: url(img/1.png);
+background-image: url(./img/1.png);
 background-size:cover;
 background-position-x:50%;
 background-position-y:50%;
@@ -135,7 +135,7 @@ p{
 }
 
 .sidebar-right{
-    margin-left: 84%; /* "#menu" width */
+    margin-left: 82%; /* "#menu" width */
     width: 300px;
     position: fixed;
     top: 0;
