@@ -28,8 +28,10 @@
 	color: white;
 }
 body{
-background-image: url(../img/1.png);
-background-size:100%;
+background-image: url('/portofolio2/img/1.png');
+background-size:cover;
+background-position-x:50%;
+background-position-y:50%;
 padding:0;
 margin:0;
 }
@@ -148,8 +150,9 @@ p{
 html {
 	scroll-behavior: smooth;
 }
-.sidebar-right img{
+.sidebar-img img{
 	width:90%;
+	z-index:9999;
 }
 .sidebar-right h2{
 	margin-top:25px;
@@ -164,6 +167,10 @@ html {
 .sidebar-img:hover{
     opacity:1;
 	transform:scale(1.5);
+	cursor:pointer;
+}
+#check:checked ~ .sidebar-img img{
+	width:300%;
 }
 marquee{
 	width:58%;
@@ -190,6 +197,7 @@ th{
 	padding: 0;
 	float:right;
 	margin-right:300px;
+	transition:.5s;
 }
   .line {
 	fill: none;
@@ -239,7 +247,7 @@ th{
 	  margin-left:240px;
 	  padding:0;
 	  background:black;
-	  width:59%;
+	  width:58.8%;
 	  height:150px;
   }
 .container-footer h2{
@@ -250,10 +258,10 @@ th{
 .container-footer p{
 	font-size: 40px;
 	padding:15px 20px;
-	transition:.5s;
 	cursor:pointer;
 }
 .container-footer a:hover{
 	color:red;
+	transition:.8s;
 }
  
