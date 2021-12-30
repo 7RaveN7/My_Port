@@ -217,4 +217,7 @@ justify-content:center;
 .container-footer p{
   padding:25px 20px;
 }
+	body{
+		overflow-x:hidden;
+	}
 }
