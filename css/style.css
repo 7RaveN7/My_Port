@@ -91,7 +91,7 @@ h1 {
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
     background: rgba(132, 132, 128,0.5);	
-    overflow-y: auto;
+    overflow-y: hidden;
 	overflow-x:hidden;
 	transition:.7s;
 }
@@ -242,7 +242,7 @@ th{
   }
   .container-footer{
 	  margin-top:2px;
-	  margin-left:240px;
+	  margin-left:245px;
 	  padding:0;
 	  background:black;
 	  width:58.8%;
