@@ -141,9 +141,9 @@ p{
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
     background: rgba(132, 132, 128,0.5);
-    overflow-y: hidden;
+    overflow-y: auto;
     overflow-x:hidden;
-    transition:.5s;
+    transition:.7s;
 }
 html {
 	scroll-behavior: smooth;
