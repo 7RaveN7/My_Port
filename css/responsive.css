@@ -14,8 +14,23 @@
       left: 100%;
     }
   }
+@media(max-width:1200px){
+  #about h2::before , 
+  #study h2::before ,
+  #experience h2::before {
+    display:none;
+  }
+  #contact img{
+    left:45.8%;
+  }
+}
 
 @media(max-width:1000px){
+	#about h2::before , 
+  #study h2::before ,
+  #experience h2::before {
+    display:none;
+  }
 .sidebar-right{
   margin-left:100%;
   width:60%;
@@ -71,9 +86,17 @@ td{
 .container-footer{
   width:75.7%;
 }
+	#contact img{
+  left:55.2%;
+}
 }
 
 @media(max-width:670px){
+#about h2::before , 
+  #study h2::before ,
+  #experience h2::before {
+    display:none;
+  }	
 .sidebar-right{
   display:none;
 }
@@ -87,7 +110,7 @@ td{
   margin-top:10px;
 }
 .container{
-  width:82%;
+  width:70%;
   font-size:20px;
   margin-top:150px;
   margin-bottom:-130px;
@@ -240,5 +263,10 @@ justify-content:center;
 }
 body{
   overflow-x:hidden;
+}
+	#contact img{
+  left:46.5%;
+  margin-top:13.3em;
+  z-index:1000;
 }
 }
