@@ -3,6 +3,8 @@
 	--bg-color: rgb(0, 0, 0);
 	--typewriterSpeed: 6s;
 	--typewriterCharacters: 24;
+	--clr-neon: hsl(60, 100%, 100%);
+    --clr-bg: hsl(323 21% 16%);
   }
 /* width */
 ::-webkit-scrollbar {
@@ -234,6 +236,51 @@ th{
   #check{
 	  display:none;
   }
+#about h2::before{
+	  content:"";
+	  border:2px solid white;
+	  position:absolute;
+	  top:29%;
+	  bottom:0;
+	  right:0;
+	  left:44%;
+	  width:8%;
+	  height:8%;
+	  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+	  background: var(--clr-neon);
+	  filter: blur(1em);
+	  opacity: 0.7;
+  }
+  #study h2::before{
+	content:"";
+	border:2px solid white;
+	position:absolute;
+	top:62%;
+	bottom:0;
+	right:0;
+	left:44%;
+	width:8%;
+	height:8%;
+	transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+	background: var(--clr-neon);
+	filter: blur(1em);
+	opacity: 0.7;
+  }
+  #experience h2::before{
+	content:"";
+	border:2px solid white;
+	position:absolute;
+	top:104%;
+	bottom:0;
+	right:0;
+	left:44%;
+	width:8%;
+	height:8%;
+	transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+	background: var(--clr-neon);
+	filter: blur(1em);
+	opacity: 0.7;
+  }
   .container h2{
 	  text-decoration:underline;
   }
@@ -242,25 +289,25 @@ th{
   }
   .container-footer{
 	  margin-top:2px;
-	  margin-left:245px;
+	  margin-left:240px;
 	  padding:0;
 	  background:black;
 	  width:58.8%;
 	  height:150px;
-	  border:2px solid white;
   }
 .container-footer h2{
-	height:10px;
-	padding:10px 5px;
+	height:50px;
 	font-size:32px;
 }
-.container-footer p{
+.container-footer p1{
 	font-size: 40px;
-	padding:15px 20px;
-	cursor:pointer;
+	padding-bottom:10px;
 }
-.container-footer a:hover{
-	color:red;
-	transition:.8s;
+#contact img{
+	position:absolute;
+	left:43.4%;
+	margin-top:4.1em;
+    cursor:pointer;
 }
+
  
