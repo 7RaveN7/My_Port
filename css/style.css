@@ -136,7 +136,7 @@ p{
 }
 
 .sidebar-right{
-    margin-left: 80%; /* "#menu" width */
+    margin-left: 84%; /* "#menu" width */
     width: 300px;
     position: fixed;
     top: 0;
@@ -241,7 +241,7 @@ th{
 	  content:"";
 	  border:2px solid white;
 	  position:absolute;
-	  top:29%;
+	  top:25%;
 	  bottom:0;
 	  right:0;
 	  left:44%;
@@ -256,7 +256,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:62%;
+	top:57%;
 	bottom:0;
 	right:0;
 	left:44%;
@@ -271,7 +271,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:104%;
+	top:99%;
 	bottom:0;
 	right:0;
 	left:44%;
@@ -303,7 +303,7 @@ th{
 }
 #contact img{
 	position:absolute;
-	left:43.4%;
+	left:41%;
 	margin-top:4.1em;
     cursor:pointer;
 }
