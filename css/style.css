@@ -241,7 +241,7 @@ th{
 	  content:"";
 	  border:2px solid white;
 	  position:absolute;
-	  top:35%;
+	  top:35%, auto;
 	  bottom:0;
 	  right:0;
 	  left:44%;
@@ -256,7 +256,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:60%;
+	top:60%, auto;
 	bottom:0;
 	right:0;
 	left:44%;
@@ -271,7 +271,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:105%;
+	top:105%, auto;
 	bottom:0;
 	right:0;
 	left:44%;
