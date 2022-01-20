@@ -136,7 +136,7 @@ p{
 }
 
 .sidebar-right{
-    margin-left: 84%; /* "#menu" width */
+    margin-left: 83.2%; /* "#menu" width */
     width: 300px;
     position: fixed;
     top: 0;
@@ -241,7 +241,7 @@ th{
 	  content:"";
 	  border:2px solid white;
 	  position:absolute;
-	  top:25%;
+	  top:35%;
 	  bottom:0;
 	  right:0;
 	  left:44%;
@@ -256,7 +256,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:57%;
+	top:60%;
 	bottom:0;
 	right:0;
 	left:44%;
@@ -271,7 +271,7 @@ th{
 	content:"";
 	border:2px solid white;
 	position:absolute;
-	top:99%;
+	top:105%;
 	bottom:0;
 	right:0;
 	left:44%;
