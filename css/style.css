@@ -94,7 +94,7 @@ h1 {
     z-index: 1000; /* so the menu or its navicon stays above all content */
     background: rgba(132, 132, 128,0.5);	
     overflow-y: auto;
-	overflow-x:hidden;
+    overflow-x:hidden;
 	transition:.7s;
 }
 .sidebar img{
@@ -136,7 +136,7 @@ p{
 }
 
 .sidebar-right{
-    margin-left: 82%; /* "#menu" width */
+    margin-left: 80%; /* "#menu" width */
     width: 300px;
     position: fixed;
     top: 0;
